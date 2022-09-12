@@ -66,6 +66,7 @@
 		FC598D5E28CAF7750065EF2F /* FlixUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlixUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FCAE1B4628CEFF9E00576CF2 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		FCAE1B4B28CF8C0A00576CF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FCAE1B4D28CF9ACB00576CF2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +124,7 @@
 		FC598D2F28CAF7720065EF2F = {
 			isa = PBXGroup;
 			children = (
+				FCAE1B4D28CF9ACB00576CF2 /* README.md */,
 				FC598D3A28CAF7720065EF2F /* Flix */,
 				FC598D5128CAF7750065EF2F /* FlixTests */,
 				FC598D5B28CAF7750065EF2F /* FlixUITests */,
