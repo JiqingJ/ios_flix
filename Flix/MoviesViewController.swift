@@ -66,7 +66,7 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         // URL is a type follow url rules
         let postUrl = URL(string: baseUrl + posterPath)
         
-        cell.imageView!.af.setImage(withURL: postUrl!)
+        cell.posterView.af.setImage(withURL: postUrl!)
         
         return cell
     }
@@ -74,7 +74,22 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return movies.count
     }
-
-
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // get the new view controller using segue.destination
+        // pass the selected object to the new view controller
+        print("Loading uo the details screen")
+        
+        // Find the selected movie
+        let cell = sender as! UITableViewCell
+        let indexPath = tableView.indexPath(for: cell)!
+        let movie = movies[indexPath.row]
+        
+        // pass the selected movie to the details view controller
+        let detailedViewController = segue.destination as! MovieDetailsViewController
+        detailedViewController.movie = movie
+        
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
 }
 
