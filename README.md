@@ -14,7 +14,7 @@
 ### App Walkthrough GIF
 
 
-<img src="g.recordit.co/JzpEUmbWLI.gif" width=250><br>
+<img src=http://g.recordit.co/JzpEUmbWLI.gif width=250><br>
 
 ### Notes
 Took me a while to figure out how to adjust the size/fit of images. 
