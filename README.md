@@ -16,5 +16,7 @@
 
 <img src='http://g.recordit.co/JzpEUmbWLI.gif' width=250><br>
 
+Not sure why the gif is not showing up. HERE is the URL, please click to check: http://g.recordit.co/JzpEUmbWLI.gif
+
 ### Notes
 Took me a while to figure out how to adjust the size/fit of images. 
